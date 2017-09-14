@@ -26,13 +26,9 @@ def kor_kerulete(sugar):
     return 2 * sugar * pi
 
 
-def meret_szamot(mit_szamol, sugar):
-    return mit_szamol(sugar)
-
 print(kor_kerulete(5))
 print('\n')
-print(meret_szamot(kor_kerulete, 5))
-print('\n')
+
 
 
 # default ertek

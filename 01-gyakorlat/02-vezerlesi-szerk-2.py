@@ -38,6 +38,7 @@ for n in range(2, 10):
     else:
         print(n, 'is a prime number')
 print("\n")
+
 # ********************* WHILE ****************
 
 """
