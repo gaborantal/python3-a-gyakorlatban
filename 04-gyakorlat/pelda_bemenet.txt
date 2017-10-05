@@ -1,0 +1,3 @@
+Ez egy
+pelda
+a bemeneti fajlra
