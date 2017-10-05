@@ -14,6 +14,7 @@ def input_arg_parser():
 def file_methods(file_name):
     F = open(file_name, "r")
     print(dir(F))
+    F.close()
 
 # beolvassa egy str-be a fajl tartalmat
 def read_1(file_name):
