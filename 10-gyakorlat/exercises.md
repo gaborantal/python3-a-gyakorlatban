@@ -1,4 +1,10 @@
-# Összefûzés
-Készítsünk feladatgyûjteményt. Az összes mappában található exercises.md fájlokat nyissuk meg, olvassuk be, és fûzzük õket egybe. Az így
-elkészítült feladatgyûjteményt mentsünk el feladatgyûjtemény.md néven.
+# Ã–sszefÅ±zÃ©s
+KÃ©szÃ­tsÃ¼nk feladatgyÅ±jtemÃ©nyt. Az Ã¶sszes mappÃ¡ban talÃ¡lhatÃ³ exercises.md fÃ¡jlokat nyissuk meg, olvassuk be, Ã©s fÅ±zzÃ¼k Å‘ket egybe. Az Ã­gy
+elkÃ©szÃ­tÃ¼lt feladatgyÅ±jtemÃ©nyt mentsÃ¼nk el feladatgyÅ±jtemÃ©ny.md nÃ©ven.
 
+# KorÃ¡bbival
+
+# LekÃ©rÃ©s
+http://kutyamutya.hu/sth.php
+
+array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
