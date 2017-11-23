@@ -1,0 +1,10 @@
+sudo pip3 install pandas
+sudo pip3 install networkx
+sudo pip3 install numpy
+sudo pip3 install matplotlib
+
+sudo apt-get install python3-numpy python3-scipy python3-matplotlib ipython ipython-notebook python3-pandas python-sympy python3-nose
+
+sudo pip3 install scikit-learn
+
+
