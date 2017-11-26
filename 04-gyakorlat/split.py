@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 msg = "Ez,egy,szoveg;ez, akarjuk, szetdarabolni"
 print(msg.split(","))

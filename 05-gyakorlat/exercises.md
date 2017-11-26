@@ -1,11 +1,13 @@
-# 1. Swallow exceptions
+# 5. gyakorlat
+
+## 1. Swallow exceptions
 A feladat egy olyan context manager/dekorátor elkészítése, ami elnyeli a megadott típusú kivételeket
 
     with swallow_exceptions([ZeroDivisionError]):
             1 / 0
     Nullaval valo osztas lenyelve
 
-# 2. Better debug
+## 2. Better debug
 A feladat egy dekorátor elkészítése, ami rendes debug hibaüzenetet ír ki: időpont, meghívott metódus neve, argumentumok, visszatérési érték, esetleg kivétel.
 
     @debug
@@ -27,7 +29,7 @@ A feladat egy dekorátor elkészítése, ami rendes debug hibaüzenetet ír ki: 
       File "<stdin>", line 1, in <module>
     ZeroDivisionError: integer division or modulo by zero
 
-# 3. YOLO Cache
+## 3. YOLO Cache
 A feladat egy olyan context manager/dekorátor elkészítése, amely csökkenti a CPU terhelését, mégpedig cache-elés segítségével.
 Ehhez tárolja el a beérkező paramétereket, és a függvény által kiszámolt értéket. Ha legközelebb érkeznek olyan paraméterek, melyek
 már korábban voltak, és rögzítettük a visszatérési értékét, akkor ne hívja meg a függvényt, hanem a cace-ben tárolt értékkel térjen vissza,
@@ -36,10 +38,10 @@ hiszen nem érünk rá örökké! `exercises.py`
 Pluszpontért: Egy 'timeout' paraméter a cache-hez, hogy meddig maradjanak benne a tárolt értékek, ha nincsenek használva.
 
 
-# 4. Deprecated dekorátor
+## 4. Deprecated dekorátor
 A feladat egy olyan context dekorátor elkészítése, ami figyelmezteti a felhasználót, hogy elavult függvényt használt. Csak az első függvényhasználatkor szóljon.
 
-# 5. flatten generátor
+## 5. flatten generátor
 A feladat egy olyan generátor függvény írása, amelynek bejárható paramétereket adva transzparensen visszaadja
 az egymást követő bejárható dolgok elemei.
 
@@ -47,9 +49,3 @@ az egymást követő bejárható dolgok elemei.
         print(i)
     
     > 0 1 2 3 4
-
-# 3. 
-A feladat egy olyan context manager/dekorátor elkészítése,
-
-# 3. 
-A feladat egy olyan context manager/dekorátor elkészítése,

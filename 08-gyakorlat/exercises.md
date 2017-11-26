@@ -1,19 +1,19 @@
 # Feladatok
 
-## Maximális elem kiválasztása a reduce használatával
-Lásd: exercises.py fájl
+## MaximÃ¡lis elem kivÃ¡lasztÃ¡sa a reduce hasznÃ¡latÃ¡val
+LÃ¡sd: exercises.py fÃ¡jl
 
 ## Kocsi adatok
-0. A feladat a `cars.csv` beolvasása a csv.DictReader segítségével. A beolvasott objektumokból készítsünk `Car` objektumokat. 
-Ehhez hozzuk létre a `Car` osztályt. A `rendszamok.txt` fájlban találunk az autókhoz rendszámokat. A fájl beolvasása után
-egységesítsük a rendszámokat BBB-000 formátumú rendszámmá, így "tegyük fel" egy kocsira. Mindegyik rendszámot adjuk hozzá
-valamelyik autóhoz (az egyszerûség kedvéért érdemes sorban haladni. Az így elkészült adathalmazt:
+0. A feladat a `cars.csv` beolvasÃ¡sa a csv.DictReader segÃ­tsÃ©gÃ©vel. A beolvasott objektumokbÃ³l kÃ©szÃ­tsÃ¼nk `Car` objektumokat. 
+Ehhez hozzuk lÃ©tre a `Car` osztÃ¡lyt. A `rendszamok.txt` fÃ¡jlban talÃ¡lunk az autÃ³khoz rendszÃ¡mokat. A fÃ¡jl beolvasÃ¡sa utÃ¡n
+egysÃ©gesÃ­tsÃ¼k a rendszÃ¡mokat BBB-000 formÃ¡tumÃº rendszÃ¡mmÃ¡, Ã­gy "tegyÃ¼k fel" egy kocsira. Mindegyik rendszÃ¡mot adjuk hozzÃ¡
+valamelyik autÃ³hoz (az egyszerÅ±sÃ©g kedvÃ©Ã©rt Ã©rdemes sorban haladni. Az Ã­gy elkÃ©szÃ¼lt adathalmazt:
 
-1. Mentsük ki json fájlba. 
-2. Csak a kocsi típusa+rendszám adatokat mentsük ki a csv.DictWriter segítségével!
-3. Szûrjük az autókat: tároljuk el egy listában a 96 kW teljesítményû autókat (1 lóerõ = 0.745699872 kilowatt)
-4. Válasszuk ki a listából azt az autót, amelyik a leggyorsabban gyorsul fel 100 km/h-ra, a reduce() segítségével.
-5. Készítsünk egy listát a map() segítségével, amelyben legyen benne, hogy az egyes autók hány évesek (jelenlegi év - gyártás)
+1. MentsÃ¼k ki json fÃ¡jlba. 
+2. Csak a kocsi tÃ­pusa+rendszÃ¡m adatokat mentsÃ¼k ki a csv.DictWriter segÃ­tsÃ©gÃ©vel!
+3. SzÅ±rjÃ¼k az autÃ³kat: tÃ¡roljuk el egy listÃ¡ban a 96 kW teljesÃ­tmÃ©nyÅ± autÃ³kat (1 lÃ³erÅ‘ = 0.745699872 kilowatt)
+4. VÃ¡lasszuk ki a listÃ¡bÃ³l azt az autÃ³t, amelyik a leggyorsabban gyorsul fel 100 km/h-ra, a reduce() segÃ­tsÃ©gÃ©vel.
+5. KÃ©szÃ­tsÃ¼nk egy listÃ¡t a map() segÃ­tsÃ©gÃ©vel, amelyben legyen benne, hogy az egyes autÃ³k hÃ¡ny Ã©vesek (jelenlegi Ã©v - gyÃ¡rtÃ¡s)
 
-## Email validátor 
-Készítsünk egy e-mail cím validátor függvényt. Térjen vissza igazzal, ha e-mail címet adtunk neki paraméterben, különben pedig hamissal.
+## Email validÃ¡tor 
+KÃ©szÃ­tsÃ¼nk egy e-mail cÃ­m validÃ¡tor fÃ¼ggvÃ©nyt. TÃ©rjen vissza igazzal, ha e-mail cÃ­met adtunk neki paramÃ©terben, kÃ¼lÃ¶nben pedig hamissal.

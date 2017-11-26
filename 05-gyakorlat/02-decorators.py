@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Decorator tervezesi minta
 # OOP tervezesi mintak koze tartozik
 # Meglevo objektum funkcionalitasanak bovitese
@@ -32,4 +35,3 @@ method("Second run", 120)
 # Majd meghivjuk a dekoralt fuggvenyt
 method = first_decorator(foo2)
 method("Third run", 120)
-

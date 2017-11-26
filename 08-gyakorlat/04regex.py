@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import os
 import re
 
 RENDSZAM_REGEX = r'\b([A-Z]{3}) ?-? ?([0-9]{3})\b'
@@ -37,7 +38,7 @@ def main():
         print('Huh! Nincs meg vilagvege.')
 
     print('-- Rendszamok')
-    with open('rendszamok.txt', 'r') as rendszam_file:
+    with open(os.path.join('data', 'rendszamok.txt'), 'r') as rendszam_file:
         rendszamok = rendszam_file.read()
     rendszamok = rendszamok.split('\n')
 

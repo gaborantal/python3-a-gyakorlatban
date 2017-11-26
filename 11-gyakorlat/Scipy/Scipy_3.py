@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # https://en.wikipedia.org/wiki/Bessel_function
 

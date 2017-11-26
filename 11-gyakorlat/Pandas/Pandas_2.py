@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import pandas as pd
 
 d1 = { 'one' : pd.Series([1, 2, 3], index=['a', 'b', 'c']),
@@ -28,4 +30,3 @@ df2['two'] = pd.Series([1, 2, 3, 4], index=['a', 'b', 'c', 'd'])
 
 df = df1.append(df2)
 #print(df)
-

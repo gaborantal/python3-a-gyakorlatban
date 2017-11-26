@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import pandas as pd
 
 str = pd.Series(['Tom', 'William Rick', 'John', 'Alber@t', '1234','SteveSmith'])

@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 sql_create_projects_table = """ CREATE TABLE IF NOT EXISTS projects (
                                     id integer PRIMARY KEY,
                                     name text NOT NULL,

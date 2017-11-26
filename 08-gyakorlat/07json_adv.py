@@ -29,7 +29,7 @@ class Student(object):
 
 
 def main():
-    with open('students.json', 'r') as fp:
+    with open(os.path.join('data', 'students.json'), 'r') as fp:
         raw_data = json.load(fp)
     students = [Student.from_json_dict(x) for x in raw_data]
 

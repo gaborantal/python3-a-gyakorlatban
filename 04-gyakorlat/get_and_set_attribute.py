@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 class Ember():
     def __init__(self, nev, eletkor, szul_hely="Kecskemet"):

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from scipy.spatial import ConvexHull
 import matplotlib.pyplot as plt
 import numpy as np

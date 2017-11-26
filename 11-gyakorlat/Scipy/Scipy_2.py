@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import scipy.integrate as integrate
 import scipy.special as special

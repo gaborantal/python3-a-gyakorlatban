@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import numpy as np
 
 a1 = np.array([1, 2, 32, 14, 13, 23]) 

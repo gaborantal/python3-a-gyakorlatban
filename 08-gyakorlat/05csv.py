@@ -4,7 +4,7 @@ import csv
 
 
 def main():
-    with open('students.csv', 'r') as csv_file:
+    with open(os.path.join('data', 'students.csv'), 'r') as csv_file:
         student_reader = csv.DictReader(csv_file, delimiter=';')
 
         for student in student_reader:

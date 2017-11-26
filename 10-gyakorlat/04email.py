@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import os
+
 import emails
 
 
@@ -7,10 +9,10 @@ import emails
 
 
 def main():
-    message = emails.html(html=open('level.html'),
+    message = emails.html(html=open(os.path.join('data', 'level.html')),
                           subject='Friday party',
                           mail_from=('Company Team', 'sztepython@gmail.com'))
-    message.attach(data=open('pug.jpg', 'rb'), filename='pug.jpg',
+    message.attach(data=open(os.path.join('data', 'pug.jpg'), 'rb'), filename='pug.jpg',
                    content_disposition='inline')
 
     r = message.send(to=('John Brown', 'sztepython@gmail.com'),

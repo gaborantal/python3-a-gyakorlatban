@@ -24,10 +24,10 @@ def main():
     e2 = {'nev': 'Eros Pista', 'email': 'eros@pista.hu'}
     everyone = [e1, e2]
 
-    with open('students.json', 'w') as fp:
+    with open(os.path.join('data', 'students.json'), 'w') as fp:
         json.dump(everyone, fp)
 
-    with open('cars.json', 'r') as fp:
+    with open(os.path.join('data', 'cars.json'), 'r') as fp:
         cars_from_json = json.load(fp)
 
     cars_from_json = cars_from_json['data']

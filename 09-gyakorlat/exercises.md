@@ -1,29 +1,29 @@
 # Feladatok
 
-## 03web_scraping_advanced befejezése
-Maradt néhány TODO, ezeket be lehet fejezni.
+## 03web_scraping_advanced befejezÃ©se
+Maradt nÃ©hÃ¡ny TODO, ezeket be lehet fejezni.
 
-## Táblázatfeldolgozó PIMP
-A fenti fájlban lévõ táblázat feldolgozása, az adatok lementése könnyen kezelhetõ CSV formátumban. Az adatokból különbözõ statisztika
-kinyerése, hány hallgató kapott egyest, kettest, hármast, négyest, ötöst. Az eredmények megjelenítése egy webszerveren. Az oldalon lévõ
-link hatására frissítse a tartalmat, számolja újra a statisztikát.
+## TÃ¡blÃ¡zatfeldolgozÃ³ PIMP
+A fenti fÃ¡jlban lÃ©vÅ‘ tÃ¡blÃ¡zat feldolgozÃ¡sa, az adatok lementÃ©se kÃ¶nnyen kezelhetÅ‘ CSV formÃ¡tumban. Az adatokbÃ³l kÃ¼lÃ¶nbÃ¶zÅ‘ statisztika
+kinyerÃ©se, hÃ¡ny hallgatÃ³ kapott egyest, kettest, hÃ¡rmast, nÃ©gyest, Ã¶tÃ¶st. Az eredmÃ©nyek megjelenÃ­tÃ©se egy webszerveren. Az oldalon lÃ©vÅ‘
+link hatÃ¡sÃ¡ra frissÃ­tse a tartalmat, szÃ¡molja Ãºjra a statisztikÃ¡t.
 
 ## Web2MD
-Például a http://www.inf.u-szeged.hu/~antal/ oldal (de bármi lehet, akár wiki cikk, stb) kimentése MD fomrátumban (vagy lehet txt is):
+PÃ©ldÃ¡ul a http://www.inf.u-szeged.hu/~antal/ oldal (de bÃ¡rmi lehet, akÃ¡r wiki cikk, stb) kimentÃ©se MD fomrÃ¡tumban (vagy lehet txt is):
 
-- A fõoldalon lévõ linkek mindegyikére is hívjuk meg az átalakítót.
-- Nem kell, hogy tökéletes legyen: elég ha bizonyos elemekre mûködik (cím, div, a, p, span, stb, bármi).
-- Képeket, rövidítsen a tinyurl.py használatával.
+- A fÅ‘oldalon lÃ©vÅ‘ linkek mindegyikÃ©re is hÃ­vjuk meg az Ã¡talakÃ­tÃ³t.
+- Nem kell, hogy tÃ¶kÃ©letes legyen: elÃ©g ha bizonyos elemekre mÅ±kÃ¶dik (cÃ­m, div, a, p, span, stb, bÃ¡rmi).
+- KÃ©peket, rÃ¶vidÃ­tsen a tinyurl.py hasznÃ¡latÃ¡val.
 
-## Online fájlszerkesztõ
-Egy elõre elkészített CSV fájl online szerkesztése, bárki által (vagy akár autentikáció után).
+## Online fÃ¡jlszerkesztÅ‘
+Egy elÅ‘re elkÃ©szÃ­tett CSV fÃ¡jl online szerkesztÃ©se, bÃ¡rki Ã¡ltal (vagy akÃ¡r autentikÃ¡ciÃ³ utÃ¡n).
 
-- Egy webes API-n keresztül lehessen kommunikálni: /read - a fájl akutális állapota, kicsit megszépítve, vagy akár JSON-nel (GET kérés)
-- Szerkesztés, a tördelés segítségével, pl. egyszerre egy szót cserélhetünk: /modify/SOR/SZÓ_SZÁMA (mondjuk pontosvesszõvel tördeljük). (POST kérés)
-- A szerkesztésrõl jöjjön válasz: melyik szót cseréltük le mire.
+- Egy webes API-n keresztÃ¼l lehessen kommunikÃ¡lni: /read - a fÃ¡jl akutÃ¡lis Ã¡llapota, kicsit megszÃ©pÃ­tve, vagy akÃ¡r JSON-nel (GET kÃ©rÃ©s)
+- SzerkesztÃ©s, a tÃ¶rdelÃ©s segÃ­tsÃ©gÃ©vel, pl. egyszerre egy szÃ³t cserÃ©lhetÃ¼nk: /modify/SOR/SZÃ“_SZÃMA (mondjuk pontosvesszÅ‘vel tÃ¶rdeljÃ¼k). (POST kÃ©rÃ©s)
+- A szerkesztÃ©srÅ‘l jÃ¶jjÃ¶n vÃ¡lasz: melyik szÃ³t cserÃ©ltÃ¼k le mire.
 
 ## WebZipDownloader
-Például a http://www.inf.u-szeged.hu/~antal/?p=prog2 oldalon lévõ összes link bejárása, és ha .zip a kiterjesztése, akkor töltse le:
+PÃ©ldÃ¡ul a http://www.inf.u-szeged.hu/~antal/?p=prog2 oldalon lÃ©vÅ‘ Ã¶sszes link bejÃ¡rÃ¡sa, Ã©s ha .zip a kiterjesztÃ©se, akkor tÃ¶ltse le:
 
-- Ehhez használd a urllib.request.urlretrieve függvényt. Bõvebben: https://stackoverflow.com/a/7244263/5738367, https://docs.python.org/dev/library/urllib.request.html#urllib.request.urlretrieve
-- Letöltés után használd az shutils.make_archive függvényt, hogy az összes zipbõl egy nagy zip fájlt készíts! https://docs.python.org/3/library/shutil.html#shutil.make_archive
+- Ehhez hasznÃ¡ld a urllib.request.urlretrieve fÃ¼ggvÃ©nyt. BÅ‘vebben: https://stackoverflow.com/a/7244263/5738367, https://docs.python.org/dev/library/urllib.request.html#urllib.request.urlretrieve
+- LetÃ¶ltÃ©s utÃ¡n hasznÃ¡ld az shutils.make_archive fÃ¼ggvÃ©nyt, hogy az Ã¶sszes zipbÅ‘l egy nagy zip fÃ¡jlt kÃ©szÃ­ts! https://docs.python.org/3/library/shutil.html#shutil.make_archive
