@@ -4,7 +4,7 @@ cssselect==1.0.1
 cssutils==1.0.2
 emails==0.5.15
 idna==2.6
-lxml==4.1.1
+lxml==4.6.3
 premailer==3.1.1
 python-dateutil==2.6.1
 requests==2.18.4
